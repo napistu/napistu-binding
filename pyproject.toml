@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 88
+target-version = ['py39']
+
+[tool.ruff]
+target-version = "py39"
+line-length = 88
+lint.select = ["E", "F", "I"]
+lint.ignore = ["E501"]
+
+[tool.uv.extra-build-dependencies]
+torch-sparse = ["torch"]
+torch-scatter = ["torch"]
+torch-geometric = ["torch"]
+
+[tool.pytest.ini_options]
+filterwarnings = [
+    "ignore:Deprecated call to `pkg_resources.declare_namespace.*:DeprecationWarning",
+    "ignore::UserWarning:pytorch_lightning",
+    "ignore:GPU available but not used:UserWarning",
+    "ignore:.*does not have many workers.*:UserWarning",
+    "ignore:.*Trying to infer the `batch_size`.*:UserWarning",
+    "ignore:.*torch_geometric.distributed.*has been deprecated.*:DeprecationWarning",
+]
