@@ -1,0 +1,94 @@
+  
+  Marvin  09021012402D          
+
+ 21 24  0  0  0  0            999 V2000
+    0.2357   -3.7125    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4788   -4.1250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4788   -4.9500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2357   -5.3625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9502   -4.9500    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9502   -4.1250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2357   -6.1875    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6647   -3.7125    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.1932   -3.7125    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.1932   -2.8875    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6647   -2.8875    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2357   -0.0441    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4788   -0.4567    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4788   -1.2817    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2357   -1.6942    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9502   -1.2817    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.9502   -0.4567    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.1932   -1.6942    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.6647   -1.6942    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2357   -2.5192    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.2357    0.7809    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  1  6  2  0  0  0  0
+  2  3  2  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  2  0  0  0  0
+  5  6  1  0  0  0  0
+  4  7  1  0  0  0  0
+  6  8  1  0  0  0  0
+  2  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+  8 11  1  0  0  0  0
+ 12 13  1  0  0  0  0
+ 12 17  1  0  0  0  0
+ 13 14  1  0  0  0  0
+ 14 15  1  0  0  0  0
+ 15 16  1  0  0  0  0
+ 16 17  1  0  0  0  0
+ 14 18  2  0  0  0  0
+ 16 19  2  0  0  0  0
+ 18 10  8  0  0  0  0
+ 19 11  8  0  0  0  0
+ 15 20  1  0  0  0  0
+ 20  1  8  0  0  0  0
+ 12 21  2  0  0  0  0
+M  END
+
+> <ChEBI ID>
+CHEBI:60153
+
+> <ChEBI NAME>
+melamine cyanurate
+
+> <STAR>
+3
+
+> <DEFINITION>
+A crystalline complex formed from a 1:1 mixture of melamine and cyanuric (isocyanuric) acid,  held together by an extensive two-dimensional network of hydrogen bonds between the two compounds.
+
+> <MASS>
+255.198
+
+> <FORMULA>
+C6H9N9O3
+
+> <MONOISOTOPIC_MASS>
+255.08284
+
+> <SMILES>
+Nc1nc2n3c(n1)N[H]~O=C1NC(=O)NC(=O~[H]N2)N1[H]~3
+
+> <IUPAC_NAME>
+1,3,5-triazinane-2,4,6-trione--1,3,5-triazine-2,4,6-triamine (1/1);1,3,5-triazinane-2,4,6-trione--1,3,5-triazine-2,4,6-triamine (1/1)
+
+> <SYNONYM>
+melamine-cyanuric acid complex;Melamine isocyanurate;melamine-cyanuric acid adduct;1,3,5-Triazine-2,4,6(1H,3H,5H)-trione, compd. with 1,3,5-triazine-2,4,6-triamine (1:1);1,3,5-Triazine-2,4,6(1H,3H,5H)-trione, compound with 1,3,5-triazine-2,4,6-triamine (1:1);s-Triazine, 2,4,6-triamino-, compd. with s-triazine-triol;Melamine-cyanuric acid compd
+
+> <CAS Registry Numbers>
+37640-57-6
+
+> <Beilstein Registry Numbers>
+4074256
+
+> <PubChem Compound Database Links>
+46878591
+
+> <PubChem Substance Database Links>
+99319755
+
+$$$$

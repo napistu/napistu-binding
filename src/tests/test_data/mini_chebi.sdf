@@ -1,0 +1,1175 @@
+
+  Marvin  05100611142D          
+
+ 12 13  0  0  1  0            999 V2000
+   -0.7145   -0.4125    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   -0.7145    0.4125    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    0.0000   -0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145   -0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145    0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4290    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7144   -1.2375    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7144    1.2376    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.0123    0.5835    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4289    0.0001    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+   -2.0123   -0.5833    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1 11  1  0  0  0  0
+  1  8  1  6  0  0  0
+  2 11  1  0  0  0  0
+  2  9  1  6  0  0  0
+  6  7  1  0  0  0  0
+  5  6  2  0  0  0  0
+  1  2  1  0  0  0  0
+  1  3  1  0  0  0  0
+  3  5  1  0  0  0  0
+  4  6  1  0  0  0  0
+  2  4  1  0  0  0  0
+ 11 10  1  0  0  0  0
+ 11 12  1  0  0  0  0
+M  END
+
+> <ChEBI ID>
+CHEBI:7
+
+> <ChEBI NAME>
+(+)-car-3-ene
+
+> <STAR>
+3
+
+> <DEFINITION>
+A car-3-ene (3,7,7-trimethylbicyclo[4.1.0]hept-3-ene) that has <i>S</i> configuration at position 1 and <i>R</i> configuration at position 6.
+
+> <MASS>
+136.238
+
+> <FORMULA>
+C10H16
+
+> <MONOISOTOPIC_MASS>
+136.1252
+
+> <SMILES>
+[H][C@@]12CC=C(C)C[C@]1([H])C2(C)C
+
+> <INCHI>
+InChI=1S/C10H16/c1-7-4-5-8-9(6-7)10(8,2)3/h4,8-9H,5-6H2,1-3H3/t8-,9+/m1/s1
+
+> <INCHIKEY>
+BQOFWKZOCNGFEC-BDAKNGLRSA-N
+
+> <IUPAC_NAME>
+(1S,6R)-3,7,7-trimethylbicyclo[4.1.0]hept-3-ene;(1S,6R)-3,7,7-trimethylbicyclo[4.1.0]hept-3-ene;1alpha,6alpha-car-3-ene;1alpha,6alpha-car-3-ene
+
+> <SYNONYM>
+(S)-(+)-3-carene;(1S,6R)-(+)-3-carene;(1S)-3,7,7-trimethylbicyclo[4.1.0]hept-3-ene;(+)-car-3-ene;(1S)-(+)-3-carene;(+)-3-Carene;Isodiprene;(+)-alpha-carene;(+)-Delta(3)-carene
+
+> <BRENDA Database Links>
+1.11.1.10;1.14.14.31;1.14.14.99;3.1.1.7;3.1.1.8;4.2.3.107;4.2.3.113;4.6.1.13
+
+> <PubChem Substance Database Links>
+11533292
+
+> <SABIO-RK Database Links>
+14099
+
+> <Reaxys Registry Numbers>
+1902767
+
+> <PubMed Database Links>
+22183881;22277889;8373196
+
+> <Beilstein Registry Numbers>
+4229885
+
+> <PubChem Compound Database Links>
+443156
+
+> <CAS Registry Numbers>
+498-15-7
+
+> <NMRShiftDB Database Links>
+60019305
+
+> <Gmelin Registry Numbers>
+663435
+
+> <BKMS-react Database Links>
+71406;28483;136006;58863
+
+> <BRENDA Ligand Database Links>
+71406;28483;58863;136006
+
+> <KNApSAcK Database Links>
+C00011044
+
+> <KEGG COMPOUND Database Links>
+C11382
+
+> <MetaCyc Database Links>
+CPD-8756
+
+> <CompTox Database Links>
+DTXSID60858827
+
+> <LIPID MAPS Database Links>
+LMPR0102120021
+
+> <MetaboLights Database Links>
+MTBLS6032;MTBLS9409;MTBLS9419;MTBLS1622;MTBLS3038
+
+> <UniProt Database Links>
+Q84SM8;Q84SM8;C7ASI9;C7ASI9;F1CKI6;F1CKI6;F1CKI8;F1CKI8;F1CKI9;F1CKI9
+
+> <Rhea Database Links>
+RHEA:32539
+
+> <SureChEMBL Database Links>
+SCHEMBL1532729
+
+$$$$
+
+  Marvin  02180809072D          
+
+ 16 17  0  0  0  0            999 V2000
+   -2.1520    1.7250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4375    0.4875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7230    1.7250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7230    0.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7059    0.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7059    1.7250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0086    2.1375    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -0.0086    2.9625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0086    0.4875    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    0.7059   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0086   -0.3375    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   -0.7230   -0.7500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4375    2.1375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4375    2.9625    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.1520    0.9000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.8664    0.4875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+ 13  1  1  0  0  0  0
+ 13  3  2  0  0  0  0
+  1 15  2  0  0  0  0
+ 15  2  1  0  0  0  0
+  2  4  2  0  0  0  0
+  7  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  9  1  0  0  0  0
+  7  6  1  0  0  0  0
+  9  5  1  0  0  0  0
+  5  6  1  0  0  0  0
+  7  8  1  1  0  0  0
+  9 11  1  6  0  0  0
+ 11 10  1  0  0  0  0
+ 11 12  1  0  0  0  0
+ 13 14  1  0  0  0  0
+ 15 16  1  0  0  0  0
+M  END
+
+> <ChEBI ID>
+CHEBI:8
+
+> <ChEBI NAME>
+(+)-8-hydroxycalamenene
+
+> <STAR>
+3
+
+> <DEFINITION>
+A sesquiterpenoid consisting of 5,6,7,8-tetrahydronaphthalen-1-ol having two methyl substituents at the 3- and 8-positions, an isopropyl substituent at the 5-position and (+)-(5<i>R</i>,8<i>S</i>)-configuration.
+
+> <MASS>
+218.34
+
+> <FORMULA>
+C15H22O
+
+> <MONOISOTOPIC_MASS>
+218.16707
+
+> <SMILES>
+Cc1cc(O)c2c(c1)[C@@H](C(C)C)CC[C@@H]2C
+
+> <INCHI>
+InChI=1S/C15H22O/c1-9(2)12-6-5-11(4)15-13(12)7-10(3)8-14(15)16/h7-9,11-12,16H,5-6H2,1-4H3/t11-,12+/m0/s1
+
+> <INCHIKEY>
+FDMKIGKOMRSCAW-NWDGAFQWSA-N
+
+> <IUPAC_NAME>
+7betaH-cadina-1,3,5-trien-2-ol;(5R,8S)-3,8-dimethyl-5-(propan-2-yl)-5,6,7,8-tetrahydronaphthalen-1-ol;(5R,8S)-3,8-dimethyl-5-(propan-2-yl)-5,6,7,8-tetrahydronaphthalen-1-ol;7betaH-cadina-1,3,5-trien-2-ol
+
+> <SYNONYM>
+(+)-hydroxycalamenene;(+)-8-Hydroxycalamenene
+
+> <PubChem Compound Database Links>
+442519
+
+> <Reaxys Registry Numbers>
+4671990
+
+> <PubChem Substance Database Links>
+49658669
+
+> <Beilstein Registry Numbers>
+5257045
+
+> <NMRShiftDB Database Links>
+70028380
+
+> <CAS Registry Numbers>
+88642-92-6
+
+> <KNApSAcK Database Links>
+C00002996
+
+> <KEGG COMPOUND Database Links>
+C09938
+
+> <CompTox Database Links>
+DTXSID40331860
+
+> <LIPID MAPS Database Links>
+LMPR0103330006
+
+> <MetaboLights Database Links>
+MTBLS1693;MTBLS3725;MTBLS586;MTBLS682
+
+> <SureChEMBL Database Links>
+SCHEMBL4742053
+
+$$$$
+
+  Marvin  05210817452D          
+          
+ 10 11  0  0  1  0            999 V2000
+    0.0000   -0.8250    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    0.7145   -0.4125    0.0000 C   0  0  3  0  0  0  0  0  0  0  0  0
+   -0.7145   -0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.7145    0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.7145    0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.1270   -1.1270    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.5395   -0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.4289    0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.0000    0.8250    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   -0.3000    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  6  1  0  0  0  0
+  2  7  1  0  0  0  0
+  1  3  1  0  0  0  0
+  2  4  1  0  0  0  0
+  4  8  2  0  0  0  0
+  3  5  1  0  0  0  0
+  9  5  1  0  0  0  0
+  4  9  1  0  0  0  0
+  9 10  1  1  0  0  0
+  1 10  1  1  0  0  0
+M  END
+
+> <ChEBI ID>
+CHEBI:20
+
+> <ChEBI NAME>
+(+)-camphene
+
+> <STAR>
+3
+
+> <DEFINITION>
+A camphene (2,2-dimethyl-3-methylenebicyclo[2.2.1]heptane) that has <i>R</i> configuration at position 1 and <i>S</i> configuration at position 4.
+
+> <MASS>
+136.238
+
+> <FORMULA>
+C10H16
+
+> <MONOISOTOPIC_MASS>
+136.1252
+
+> <SMILES>
+C=C1[C@H]2CC[C@H](C2)C1(C)C
+
+> <INCHI>
+InChI=1S/C10H16/c1-7-8-4-5-9(6-8)10(7,2)3/h8-9H,1,4-6H2,2-3H3/t8-,9+/m0/s1
+
+> <INCHIKEY>
+CRPUJAZIXJMDBK-DTWKUNHWSA-N
+
+> <IUPAC_NAME>
+(1R,4S)-2,2-dimethyl-3-methylidenebicyclo[2.2.1]heptane;(1R,4S)-2,2-dimethyl-3-methylidenebicyclo[2.2.1]heptane
+
+> <SYNONYM>
+(+)-Comphene;(1R,4S)-(+)-camphene;(1R,4S)-2,2-dimethyl-3-methylenebicyclo[2.2.1]heptane;(+)-Camphene;(1R)-2,2-dimethyl-3-methylenebicyclo[2.2.1]heptane;(1R,4S)-camphene;d-camphene
+
+> <BKMS-react Database Links>
+19555;141177
+
+> <BRENDA Ligand Database Links>
+19555;141177
+
+> <Beilstein Registry Numbers>
+2323386
+
+> <BRENDA Database Links>
+4.2.3.20;4.2.3.116;4.2.3.117
+
+> <PubChem Substance Database Links>
+49742917
+
+> <Reaxys Registry Numbers>
+5240568
+
+> <CAS Registry Numbers>
+5794-03-6
+
+> <NMRShiftDB Database Links>
+60018920
+
+> <PubChem Compound Database Links>
+92221
+
+> <KNApSAcK Database Links>
+C00000818
+
+> <KEGG COMPOUND Database Links>
+C06304
+
+> <ChEMBL Database Links>
+CHEMBL510535
+
+> <CompTox Database Links>
+DTXSID10872336
+
+> <LIPID MAPS Database Links>
+LMPR0102120011
+
+> <MetaboLights Database Links>
+MTBLS1622;MTBLS1918;MTBLS3750
+
+> <UniProt Database Links>
+O81192;O81192;O81192
+
+> <Rhea Database Links>
+RHEA:32567
+
+> <SureChEMBL Database Links>
+SCHEMBL8819262
+
+$$$$
+
+  Marvin  04230715232D          
+
+ 14 14  0  0  0  0            999 V2000
+   -0.7018    0.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2169   -0.6674    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   -0.2169    0.6674    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5678    0.4125    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    0.5678   -0.4125    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    1.9967    0.4125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9967   -0.4125    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2822    0.8250    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    1.2822   -0.8250    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2822    1.6500    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2822   -1.6500    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.4718   -1.4520    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5678    1.2375    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5678   -1.2375    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2 12  1  1  0  0  0
+  3  1  1  0  0  0  0
+  4  3  1  0  0  0  0
+  8  4  1  0  0  0  0
+  4 13  1  1  0  0  0
+  5  4  1  0  0  0  0
+  5  2  1  0  0  0  0
+  9  5  1  0  0  0  0
+  5 14  1  1  0  0  0
+  6  7  2  0  0  0  0
+  8  6  1  0  0  0  0
+  8 10  1  1  0  0  0
+  9 11  2  0  0  0  0
+M  END
+
+> <ChEBI ID>
+CHEBI:25
+
+> <ChEBI NAME>
+(+)-iridodial
+
+> <STAR>
+3
+
+> <DEFINITION>
+An  iridodial that is (1<i>R</i>,2<i>R</i>)-2-[(2<i>R</i>)-1-oxopropan-2-yl]cyclopentanecarbaldehyde substituted by a methyl group at position 2 (2<i>S</i>-stereoisomer).
+
+> <MASS>
+168.236
+
+> <FORMULA>
+C10H16O2
+
+> <MONOISOTOPIC_MASS>
+168.11503
+
+> <SMILES>
+[H][C@@]1(C=O)[C@@H](C)CC[C@]1([H])[C@@H](C)C=O
+
+> <INCHI>
+InChI=1S/C10H16O2/c1-7-3-4-9(8(2)5-11)10(7)6-12/h5-10H,3-4H2,1-2H3/t7-,8-,9+,10+/m0/s1
+
+> <INCHIKEY>
+HMCYXRFNNOPPPR-AXTSPUMRSA-N
+
+> <IUPAC_NAME>
+(1R,2S,5R)-2-methyl-5-[(1R)-1-methyl-2-oxoethyl]cyclopentanecarbaldehyde;(1R,2S,5R)-2-methyl-5-[(1R)-1-methyl-2-oxoethyl]cyclopentanecarbaldehyde
+
+> <SYNONYM>
+(+)-Iridodial
+
+> <Reaxys Registry Numbers>
+4377783
+
+> <PubChem Compound Database Links>
+442426
+
+> <CAS Registry Numbers>
+550-45-8
+
+> <PubChem Substance Database Links>
+8148238
+
+> <KNApSAcK Database Links>
+C00003085
+
+> <KEGG COMPOUND Database Links>
+C09785
+
+> <LIPID MAPS Database Links>
+LMPR0102070011
+
+> <MetaboLights Database Links>
+MTBLS1918;MTBLS2096;MTBLS2406;MTBLS3750;MTBLS6081;MTBLS6667;MTBLS8903
+
+$$$$
+
+  Marvin  04230715372D          
+
+ 14 15  0  0  0  0            999 V2000
+    1.2893    0.5162    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2893   -0.3088    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.9243    0.7712    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.4092    0.1037    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.9243   -0.5637    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+    0.5748    0.9287    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5748   -0.7213    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    0.5748    1.7537    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.5748   -1.5463    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.1792   -1.3483    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1396    0.5162    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -0.1396    1.3412    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1396   -0.3088    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   -0.1396   -1.1338    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+ 13 11  1  0  0  0  0
+  1  2  1  0  0  0  0
+ 11  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+ 13  5  1  0  0  0  0
+  6 11  1  0  0  0  0
+  6  1  2  0  0  0  0
+  7 13  1  0  0  0  0
+  2  7  1  0  0  0  0
+  8  6  1  0  0  0  0
+  7  9  1  1  0  0  0
+  5 10  1  1  0  0  0
+ 11 12  1  1  0  0  0
+ 13 14  1  1  0  0  0
+M  END
+
+> <ChEBI ID>
+CHEBI:26
+
+> <ChEBI NAME>
+(+)-iridodial lactol
+
+> <STAR>
+3
+
+> <DEFINITION>
+An iridoid monoterpenoid that is 1,4a,5,6,7,7a-hexahydrocyclopenta[<em>c</em>]pyran substituted by methyl groups at positions 4 and 7 and a hydroxy group at position 1 (the 1<i>R</i>,4a<i>S</i>,7<i>S</i>,7a<i>R</i>-stereoisomer).
+
+> <MASS>
+168.236
+
+> <FORMULA>
+C10H16O2
+
+> <MONOISOTOPIC_MASS>
+168.11503
+
+> <SMILES>
+[H][C@]12[C@H](O)OC=C(C)[C@@]1([H])CC[C@@H]2C
+
+> <INCHI>
+InChI=1S/C10H16O2/c1-6-3-4-8-7(2)5-12-10(11)9(6)8/h5-6,8-11H,3-4H2,1-2H3/t6-,8+,9+,10+/m0/s1
+
+> <INCHIKEY>
+OJGPEAXUHQRLNC-JZKKDOLYSA-N
+
+> <IUPAC_NAME>
+(1R,4aS,7S,7aR)-4,7-dimethyl-1,4a,5,6,7,7a-hexahydrocyclopenta[c]pyran-1-ol;(1R,4aS,7S,7aR)-4,7-dimethyl-1,4a,5,6,7,7a-hexahydrocyclopenta[c]pyran-1-ol
+
+> <SYNONYM>
+(+)-cis-trans-nepetalactol;(+)-Iridodial
+
+> <Reaxys Registry Numbers>
+1239016
+
+> <PubChem Compound Database Links>
+442438
+
+> <CAS Registry Numbers>
+550-45-8
+
+> <NMRShiftDB Database Links>
+60032781
+
+> <PubChem Substance Database Links>
+8147066
+
+> <KNApSAcK Database Links>
+C00003085
+
+> <KEGG COMPOUND Database Links>
+C09804
+
+> <LIPID MAPS Database Links>
+LMPR0102070017
+
+> <MetaboLights Database Links>
+MTBLS6081
+
+> <Rhea Database Links>
+RHEA:35395;RHEA:57560;RHEA:35491;RHEA:57564
+
+$$$$
+
+  Marvin  04050614332D          
+
+ 11 10  0  0  1  0            999 V2000
+   -1.5228   -0.3208    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -2.2372    0.0917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.0938   -0.3208    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    0.6207    0.0917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.3351   -0.3208    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0496    0.0917    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.7641   -0.3208    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    2.0496    0.9167    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8083    0.0917    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -1.2208    0.8061    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.3958    0.8061    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  9  1  1  0  0  0  0
+  1  2  2  0  0  0  0
+  9  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  5  6  2  0  0  0  0
+  6  7  1  0  0  0  0
+  6  8  1  0  0  0  0
+  9 11  1  6  0  0  0
+  9 10  1  1  0  0  0
+M  END
+
+> <ChEBI ID>
+CHEBI:28
+
+> <ChEBI NAME>
+(R)-linalool
+
+> <STAR>
+3
+
+> <DEFINITION>
+The (<i>R</i>)-enantiomer of linalool.
+
+> <MASS>
+154.253
+
+> <FORMULA>
+C10H18O
+
+> <MONOISOTOPIC_MASS>
+154.13577
+
+> <SMILES>
+C=C[C@](C)(O)CCC=C(C)C
+
+> <INCHI>
+InChI=1S/C10H18O/c1-5-10(4,11)8-6-7-9(2)3/h5,7,11H,1,6,8H2,2-4H3/t10-/m0/s1
+
+> <INCHIKEY>
+CDOSHBSSFJOMGT-JTQLQIEISA-N
+
+> <IUPAC_NAME>
+(3R)-3,7-dimethylocta-1,6-dien-3-ol;(3R)-3,7-dimethylocta-1,6-dien-3-ol
+
+> <SYNONYM>
+(R)-(-)-Linalool;(-)-Linalool;(-)-3,7-dimethyl-1,6-octadien-3-ol;(R)-linalool;(3R)-3,7-dimethyl-1,6-octadien-3-ol;(3R)-Linalool;(R)-3,7-dimethyl-1,6-octadien-3-ol
+
+> <CAS Registry Numbers>
+126-91-0
+
+> <SABIO-RK Database Links>
+14621;15499
+
+> <PubChem Substance Database Links>
+14718455
+
+> <Reaxys Registry Numbers>
+1721487
+
+> <PubMed Database Links>
+18579302
+
+> <BKMS-react Database Links>
+221386;57985
+
+> <BRENDA Ligand Database Links>
+221386;57985
+
+> <BRENDA Database Links>
+4.2.3.26;5.4.4.8
+
+> <Beilstein Registry Numbers>
+4290982
+
+> <PubChem Compound Database Links>
+443158
+
+> <NMRShiftDB Database Links>
+60001972
+
+> <KNApSAcK Database Links>
+C00003047
+
+> <KEGG COMPOUND Database Links>
+C11388
+
+> <ChEMBL Database Links>
+CHEMBL235672
+
+> <CompTox Database Links>
+DTXSID40872607
+
+> <GeneOntology Database Links>
+GO:0034008;GO:0034008
+
+> <LIPID MAPS Database Links>
+LMPR0102010013
+
+> <MetaboLights Database Links>
+MTBLS392;MTBLS4366;MTBLS4572;MTBLS5943
+
+> <UniProt Database Links>
+Q2XSC5;Q2XSC5;Q9SPN0;Q5SBP3;Q9SPN1;Q8H2B4
+
+> <Rhea Database Links>
+RHEA:15809
+
+> <SureChEMBL Database Links>
+SCHEMBL891312
+
+$$$$
+
+  Marvin  09140616522D          
+
+ 11 11  0  0  1  0            999 V2000
+    0.5846    0.0375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1299   -0.3750    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   -0.8444    0.0375    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8444    0.8625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1299    1.2750    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    0.5846    0.8625    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2990   -0.3750    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1299    2.1000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.8444   -1.6125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.1299   -1.2000    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    0.5846   -1.6125    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  2  1  1  0  0  0  0
+  6  1  1  0  0  0  0
+  7  1  2  0  0  0  0
+  2  3  1  0  0  0  0
+  2 10  1  1  0  0  0
+  4  3  1  0  0  0  0
+  5  4  1  0  0  0  0
+  6  5  1  0  0  0  0
+  5  8  1  6  0  0  0
+ 10  9  1  0  0  0  0
+ 10 11  1  0  0  0  0
+M  END
+
+> <ChEBI ID>
+CHEBI:31
+
+> <ChEBI NAME>
+(+)-menthone
+
+> <STAR>
+3
+
+> <DEFINITION>
+A menthone that is cyclohexanone substituted by a methyl and an isopropyl group at positions 5 and 2 respectively (the 2<i>R</i>,5<i>S</i>-stereoisomer).
+
+> <MASS>
+154.253
+
+> <FORMULA>
+C10H18O
+
+> <MONOISOTOPIC_MASS>
+154.13577
+
+> <SMILES>
+CC(C)[C@H]1CC[C@H](C)CC1=O
+
+> <INCHI>
+InChI=1S/C10H18O/c1-7(2)9-5-4-8(3)6-10(9)11/h7-9H,4-6H2,1-3H3/t8-,9+/m0/s1
+
+> <INCHIKEY>
+NFLGAXVYCFJBMK-DTWKUNHWSA-N
+
+> <IUPAC_NAME>
+(2R,5S)-5-methyl-2-(propan-2-yl)cyclohexanone;(2R,5S)-5-methyl-2-(propan-2-yl)cyclohexanone
+
+> <SYNONYM>
+(+)-Menthone;(2R,5S)-2-isopropyl-5-methylcyclohexanone;(1S,4R)-menthone;(1S,4R)-p-menthan-3-one
+
+> <BRENDA Database Links>
+1.1.1.54;1.3.1.102;1.14.13.105
+
+> <PubChem Substance Database Links>
+14718489
+
+> <Reaxys Registry Numbers>
+2041367
+
+> <BKMS-react Database Links>
+25578
+
+> <BRENDA Ligand Database Links>
+25578
+
+> <CAS Registry Numbers>
+3391-87-5
+
+> <PubChem Compound Database Links>
+443159
+
+> <Beilstein Registry Numbers>
+5245020
+
+> <NMRShiftDB Database Links>
+60019666
+
+> <PDB Database Links>
+8aej
+
+> <KNApSAcK Database Links>
+C00010903
+
+> <KEGG COMPOUND Database Links>
+C11390
+
+> <ChEMBL Database Links>
+CHEMBL2268548
+
+> <CompTox Database Links>
+DTXSID2044478
+
+> <MetaboLights Database Links>
+MTBLS804
+
+> <Rhea Database Links>
+RHEA:54872
+
+> <SureChEMBL Database Links>
+SCHEMBL21711
+
+$$$$
+
+  Marvin  09240707502D          
+
+ 10 10  0  0  0  0            999 V2000
+   -1.6526    1.0677    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -1.6514    0.2427    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.9363   -0.1688    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2224    0.2448    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.9387    1.4813    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.9387    2.3063    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   -0.2236    1.0698    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+    0.4908    1.4823    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.2053    1.0698    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+    1.9198    1.4823    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  5  1  1  0  0  0  0
+  5  7  1  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  7  1  0  0  0  0
+  5  6  1  0  0  0  0
+  7  8  1  1  0  0  0
+  8  9  1  0  0  0  0
+  9 10  1  0  0  0  0
+M  END
+
+> <ChEBI ID>
+CHEBI:32
+
+> <ChEBI NAME>
+(+)-N-methylconiine
+
+> <STAR>
+3
+
+> <DEFINITION>
+A piperidine that is (+)-coniine bering an <em>N</em>-methyl substituent.
+
+> <MASS>
+141.258
+
+> <FORMULA>
+C9H19N
+
+> <MONOISOTOPIC_MASS>
+141.15175
+
+> <SMILES>
+CCC[C@H]1CCCCN1C
+
+> <INCHI>
+InChI=1S/C9H19N/c1-3-6-9-7-4-5-8-10(9)2/h9H,3-8H2,1-2H3/t9-/m0/s1
+
+> <INCHIKEY>
+CUBHREGSQFAWDJ-VIFPVBQESA-N
+
+> <IUPAC_NAME>
+(2S)-1-methyl-2-propylpiperidine;(2S)-1-methyl-2-propylpiperidine
+
+> <SYNONYM>
+(S)-1-methyl-2-propylpiperidine;(+)-N-Methylconiine;Methylconiine
+
+> <PubChem Compound Database Links>
+169683
+
+> <PubChem Substance Database Links>
+26697413
+
+> <CAS Registry Numbers>
+35305-13-6
+
+> <PubMed Database Links>
+5640211;79936
+
+> <NMRShiftDB Database Links>
+70114013
+
+> <Beilstein Registry Numbers>
+79936
+
+> <KNApSAcK Database Links>
+C00002055
+
+> <KEGG COMPOUND Database Links>
+C10159
+
+> <CompTox Database Links>
+DTXSID10896911
+
+> <MetaboLights Database Links>
+MTBLS1708;MTBLS2825;MTBLS804
+
+> <SureChEMBL Database Links>
+SCHEMBL3476022
+
+$$$$
+
+  Ketcher 04062215302D 1   1.00000     0.00000     0
+
+ 11 11  0     1  0            999 V2000
+   17.2197  -15.5678    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   17.2197  -16.5689    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.0867  -17.0695    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.9537  -16.5689    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.9537  -15.5678    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   18.0867  -15.0672    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   19.8341  -15.0594    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   20.6959  -15.5569    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   21.5414  -15.0686    0.0000 N   0  0  0  0  0  0  0  0  0  0  0  0
+   20.6962  -16.5687    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   19.8339  -14.0661    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  2  0     0  0
+  2  3  1  0     0  0
+  3  4  2  0     0  0
+  4  5  1  0     0  0
+  5  6  2  0     0  0
+  1  6  1  0     0  0
+  5  7  1  0     0  0
+  7  8  1  0     0  0
+  8  9  1  0     0  0
+  8 10  1  6     0  0
+  7 11  1  6     0  0
+M  END
+
+> <ChEBI ID>
+CHEBI:36
+
+> <ChEBI NAME>
+(+)-norephedrine
+
+> <STAR>
+3
+
+> <DEFINITION>
+An amphetamine that is propylbenzene substituted by a hydroxy group at position 1 and by an amino group at position 2 (the 1<i>S</i>,2<i>R</i>-stereoisomer).
+
+> <MASS>
+151.209
+
+> <FORMULA>
+C9H13NO
+
+> <MONOISOTOPIC_MASS>
+151.09971
+
+> <SMILES>
+C[C@@H](N)[C@@H](O)c1ccccc1
+
+> <INCHI>
+InChI=1S/C9H13NO/c1-7(10)9(11)8-5-3-2-4-6-8/h2-7,9,11H,10H2,1H3/t7-,9-/m1/s1
+
+> <INCHIKEY>
+DLNKOYKMWOXYQA-VXNVDRBHSA-N
+
+> <IUPAC_NAME>
+(1S,2R)-2-amino-1-phenylpropan-1-ol;(1S,2R)-2-amino-1-phenylpropan-1-ol
+
+> <SYNONYM>
+(1S,2R)-(+)-norephedrine;(1S,2R)-(+)-2-amino-1-phenyl-1-propanol;(+)-phenylpropanolamine;d-phenylpropanolamine;(+)-norephedrin;(1S,2R)-2-amino-1-phenyl-1-propanol;(1S,2R)-norephedrine;(2R,3S)-3-phenyl-3-hydroxy-2-aminopropane;(1S,2R)-(+)-phenylpropanolamine;d-norephedrine;erythro-alpha-(1-aminoethyl)benzyl alcohol;D-(+)-norephedrine;(+)-(1S,2R)-norephedrine
+
+> <BKMS-react Database Links>
+107660
+
+> <BRENDA Ligand Database Links>
+107660
+
+> <BRENDA Database Links>
+1.5.1.18
+
+> <PubMed Database Links>
+15643863;16946547;18969877;22098701;3172133;32589765
+
+> <PubChem Substance Database Links>
+223438564
+
+> <ChemSpider Database Links>
+25082
+
+> <PubChem Compound Database Links>
+26934
+
+> <Reaxys Registry Numbers>
+2802896
+
+> <CAS Registry Numbers>
+37577-28-9
+
+> <BindingDB Database Links>
+50405613
+
+> <NMRShiftDB Database Links>
+60032399
+
+> <KEGG COMPOUND Database Links>
+C02343
+
+> <ChEMBL Database Links>
+CHEMBL2092846
+
+> <CompTox Database Links>
+DTXSID4023466
+
+> <LINCS Database Links>
+LSM-5416
+
+> <MetaboLights Database Links>
+MTBLS2878;MTBLS4262;MTBLS4967;MTBLS8577;MTBLS9451;MTBLS136;MTBLS2825
+
+> <SureChEMBL Database Links>
+SCHEMBL26905
+
+$$$$
+
+  Marvin  08311216162D          
+
+ 28 31  0  0  1  0            999 V2000
+   12.2866  -12.9200    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   12.2866  -13.7450    0.0000 C   0  0  1  0  0  0  0  0  0  0  0  0
+   13.0712  -14.0000    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   13.5561  -13.3325    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   13.0712  -12.6651    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.5020  -12.6651    0.0000 C   0  0  2  0  0  0  0  0  0  0  0  0
+   11.0170  -13.3325    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   11.5020  -14.0000    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.2866  -12.0950    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   12.2866  -14.5700    0.0000 H   0  0  0  0  0  0  0  0  0  0  0  0
+   13.3239  -14.7776    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.1338  -14.9498    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.3889  -15.7343    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.8369  -16.3475    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   13.0268  -16.1754    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   12.7719  -15.3908    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   14.0886  -17.1215    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.1939  -15.9055    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+   15.4533  -16.7028    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.2492  -11.8875    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.4391  -11.7156    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.1839  -10.9311    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.7359  -10.3178    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.5459  -10.4897    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   11.8010  -11.2743    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+   10.4839   -9.5439    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.3789  -10.7601    0.0000 O   0  0  0  0  0  0  0  0  0  0  0  0
+    9.1193   -9.9628    0.0000 C   0  0  0  0  0  0  0  0  0  0  0  0
+  1  2  1  0  0  0  0
+  2  3  1  0  0  0  0
+  3  4  1  0  0  0  0
+  4  5  1  0  0  0  0
+  1  5  1  0  0  0  0
+  1  6  1  0  0  0  0
+  6  7  1  0  0  0  0
+  7  8  1  0  0  0  0
+  2  8  1  0  0  0  0
+  1  9  1  6  0  0  0
+  2 10  1  6  0  0  0
+  3 11  1  6  0  0  0
+ 11 12  2  0  0  0  0
+ 12 13  1  0  0  0  0
+ 13 14  2  0  0  0  0
+ 14 15  1  0  0  0  0
+ 15 16  2  0  0  0  0
+ 11 16  1  0  0  0  0
+ 14 17  1  0  0  0  0
+ 13 18  1  0  0  0  0
+ 18 19  1  0  0  0  0
+  6 20  1  6  0  0  0
+ 20 21  2  0  0  0  0
+ 21 22  1  0  0  0  0
+ 22 23  2  0  0  0  0
+ 23 24  1  0  0  0  0
+ 24 25  2  0  0  0  0
+ 20 25  1  0  0  0  0
+ 23 26  1  0  0  0  0
+ 22 27  1  0  0  0  0
+ 27 28  1  0  0  0  0
+M  END
+
+> <ChEBI ID>
+CHEBI:40
+
+> <ChEBI NAME>
+(+)-pinoresinol
+
+> <STAR>
+3
+
+> <DEFINITION>
+An enantiomer of pinoresinol having (+)-1<i>S</i>,3a<i>R</i>,4<i>S</i>,6a<i>R</i>-configuration.
+
+> <MASS>
+358.39
+
+> <FORMULA>
+C20H22O6
+
+> <MONOISOTOPIC_MASS>
+358.14164
+
+> <SMILES>
+[H][C@]12CO[C@H](c3ccc(O)c(OC)c3)[C@@]1([H])CO[C@@H]2c1ccc(O)c(OC)c1
+
+> <INCHI>
+InChI=1S/C20H22O6/c1-23-17-7-11(3-5-15(17)21)19-13-9-26-20(14(13)10-25-19)12-4-6-16(22)18(8-12)24-2/h3-8,13-14,19-22H,9-10H2,1-2H3/t13-,14-,19+,20+/m0/s1
+
+> <INCHIKEY>
+HGXBRUKMWQGOIE-AFHBHXEDSA-N
+
+> <IUPAC_NAME>
+(7alpha,7'alpha,8alpha,8'alpha)-3,3'-dimethoxy-7,9':7',9-diepoxylignane-4,4'-diol;(7alpha,7'alpha,8alpha,8'alpha)-3,3'-dimethoxy-7,9':7',9-diepoxylignane-4,4'-diol
+
+> <SYNONYM>
+4,4'-(1S,3aR,4S,6aR)-tetrahydro-1H,3H-furo[3,4-c]furan-1,4-diylbis(2-methoxyphenol);(+)-pinoresinol;pinoresinol
+
+> <BRENDA Database Links>
+1.14.19.74;1.17.9.2;1.23.1.1;1.23.1.2
+
+> <PubChem Substance Database Links>
+160644686
+
+> <PubMed Database Links>
+22818971;22854967;8262939
+
+> <BKMS-react Database Links>
+37822
+
+> <BRENDA Ligand Database Links>
+37822
+
+> <Reaxys Registry Numbers>
+4238046
+
+> <CAS Registry Numbers>
+487-36-5
+
+> <NMRShiftDB Database Links>
+60018833
+
+> <PubChem Compound Database Links>
+73399
+
+> <PDB Database Links>
+7cs4;7csb;7csh
+
+> <KNApSAcK Database Links>
+C00007190
+
+> <KEGG COMPOUND Database Links>
+C05366
+
+> <ChEMBL Database Links>
+CHEMBL260183
+
+> <MetaCyc Database Links>
+CPD-8905
+
+> <UniProt Database Links>
+E6Y2X0;E6Y2X0;Q9LD13;Q9LD13;Q9LD00;Q9LD00;Q9LD12;Q9LD12;Q9LD12;Q9LD12;Q9LD13;Q9LD13;P0DKC8;P0DKC8;P0DKC8;Q9FVQ6;Q9FVQ6;Q9FVQ6;Q9FVQ6;Q9FVQ6;P93143;P93143;P93143;P93143;P93143;Q4R0I0;Q4R0I0;Q4R0I0;Q4R0I0;B5KRH5;B5KRH5;B5KRH5;B5KRH5;A3R052;A3R052;A3R052;A3R052;Q4R0H9;Q4R0H9;Q4R0H9;Q4R0H9;Q9LD14;Q9LD14;Q9LD14;Q9LD14;Q9LD14;Q9SVP6;Q9SVP6;Q9SVP6;Q9SVP6;Q9SVP6;E6Y2X0;Q9LD13;E6Y2X0;O65679;O65679;O65679;Q9LD00;Q9LD00;Q9SH66;Q9SUQ8
+
+> <GeneOntology Database Links>
+GO:1902125;GO:1902126;GO:1902124;GO:1902125;GO:1902126
+
+> <MetaboLights Database Links>
+MTBLS1693;MTBLS2096;MTBLS2825;MTBLS3518;MTBLS4567;MTBLS4820;MTBLS673;MTBLS8679
+
+> <Wikipedia Database Links>
+Pinoresinol
+
+> <Rhea Database Links>
+RHEA:56776;RHEA:34419;RHEA:65028
+
+> <SureChEMBL Database Links>
+SCHEMBL122105
+
+$$$$
