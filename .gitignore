@@ -1,3 +1,8 @@
 dist
+**.egg-info
 build
-napistu_binding.egg-info
+__pycache__
+
+napistu_data
+
+.DS_Store

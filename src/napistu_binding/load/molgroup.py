@@ -39,8 +39,7 @@ class MolGroup:
     >>> mols = extract_molecules_from_sdf("path/to/file.sdf")
     >>>
     >>> # Generate SMILES for grouping
-    >>> from napistu_binding.load.sdf import mol_to_isomeric_smiles
-    >>> smiles_list = [mol_to_isomeric_smiles(mol) for mol in mols]
+    >>> smiles_list = [mol.to_isomeric_smiles() for mol in mols]
     >>>
     >>> # Create groups
     >>> groups = MolGroup.from_aligned_lists(smiles_list, mols)

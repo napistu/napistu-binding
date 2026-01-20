@@ -1,5 +1,5 @@
 """
-NapistuMol class for enhanced molecule handling with RDKit.
+nMol class for enhanced molecule handling with RDKit.
 """
 
 from __future__ import annotations
@@ -8,7 +8,7 @@ import logging
 from typing import TYPE_CHECKING
 
 from napistu_binding.utils.logging import restore_rdkit_logging, suppress_rdkit_logging
-from napistu_binding.utils.optional import import_rdkit, require_rdkit
+from napistu_binding.utils.optional import require_rdkit
 
 if TYPE_CHECKING:
     from rdkit.Chem import Mol
@@ -16,17 +16,19 @@ if TYPE_CHECKING:
 logger = logging.getLogger(__name__)
 
 
+@require_rdkit
 def _get_mol_class():
     """Get the RDKit Mol class, ensuring RDKit is available with helpful error messages."""
-    rdkit = import_rdkit()
-    return rdkit.Chem.Mol
+    from rdkit import Chem
+
+    return Chem.Mol
 
 
 # Get the Mol class for subclassing - this will raise a helpful error if RDKit is not installed
 _Mol = _get_mol_class()
 
 
-class NapistuMol(_Mol):
+class nMol(_Mol):
     """
     Enhanced molecule class that subclasses RDKit's Mol with additional functionality.
 
@@ -37,24 +39,23 @@ class NapistuMol(_Mol):
     Examples
     --------
     >>> from rdkit import Chem
-    >>> from napistu_binding.load.napistu_mol import NapistuMol
+    >>> from napistu_binding.load.nmol import nMol
     >>>
     >>> # Create from SMILES string
     >>> mol = Chem.MolFromSmiles("CC(=O)O")
-    >>> napistu_mol = NapistuMol(mol)
+    >>> nmol = nMol(mol)
     >>>
     >>> # Use like a Mol object
-    >>> num_atoms = napistu_mol.GetNumAtoms()
+    >>> num_atoms = nmol.GetNumAtoms()
     >>>
     >>> # Use enhanced methods
-    >>> is_valid = napistu_mol.is_valid()
-    >>> smiles = napistu_mol.to_isomeric_smiles()
+    >>> is_valid = nmol.is_valid()
+    >>> smiles = nmol.to_isomeric_smiles()
     """
 
-    @require_rdkit
     def __init__(self, mol: Mol):
         """
-        Initialize NapistuMol from an RDKit Mol object.
+        Initialize nMol from an RDKit Mol object.
 
         Similar to NapistuGraph, this class subclasses RDKit's Mol. However,
         RDKit's Mol is a C extension type, so direct initialization requires
@@ -91,10 +92,9 @@ class NapistuMol(_Mol):
             super().__init__(mol)
 
     @classmethod
-    @require_rdkit
     def FromSmiles(cls, smiles: str, sanitize: bool = True):
         """
-        Create a NapistuMol from a SMILES string.
+        Create an nMol from a SMILES string.
 
         Parameters
         ----------
@@ -105,8 +105,8 @@ class NapistuMol(_Mol):
 
         Returns
         -------
-        NapistuMol
-            A NapistuMol instance created from the SMILES string.
+        nMol
+            An nMol instance created from the SMILES string.
         """
         from rdkit import Chem
 
@@ -116,13 +116,12 @@ class NapistuMol(_Mol):
         return cls(mol)
 
     @classmethod
-    @require_rdkit
     def from_mol(cls, mol: Mol):
         """
-        Create a NapistuMol from an existing RDKit Mol object.
+        Create an nMol from an existing RDKit Mol object.
 
         Similar to NapistuGraph.from_igraph(), this allows transparent conversion
-        from RDKit Mol objects to NapistuMol objects.
+        from RDKit Mol objects to nMol objects.
 
         Parameters
         ----------
@@ -131,26 +130,25 @@ class NapistuMol(_Mol):
 
         Returns
         -------
-        NapistuMol
-            A NapistuMol instance created from the Mol object.
+        nMol
+            An nMol instance created from the Mol object.
 
         Examples
         --------
         >>> from rdkit import Chem
         >>> mol = Chem.MolFromSmiles("CC(=O)O")
-        >>> napistu_mol = NapistuMol.from_mol(mol)
+        >>> nmol = nMol.from_mol(mol)
         """
         return cls(mol)
 
     def __repr__(self) -> str:
-        """Return a string representation of NapistuMol."""
+        """Return a string representation of nMol."""
         try:
             mol_repr = super().__repr__()
         except Exception:
             mol_repr = str(self)
-        return f"NapistuMol({mol_repr})"
+        return f"nMol({mol_repr})"
 
-    @require_rdkit
     def is_valid(
         self, verbose: bool = False, suppress_rdkit_errors: bool = True
     ) -> bool:
@@ -179,11 +177,11 @@ class NapistuMol(_Mol):
         Examples
         --------
         >>> from rdkit import Chem
-        >>> from napistu_binding.load.napistu_mol import NapistuMol
+        >>> from napistu_binding.load.nmol import nMol
         >>>
         >>> mol = Chem.MolFromSmiles("CC(=O)O")
-        >>> napistu_mol = NapistuMol(mol)
-        >>> napistu_mol.is_valid()
+        >>> nmol = nMol(mol)
+        >>> nmol.is_valid()
         True
         """
         from rdkit import Chem
@@ -234,7 +232,6 @@ class NapistuMol(_Mol):
             if suppress_rdkit_errors:
                 restore_rdkit_logging()
 
-    @require_rdkit
     def to_isomeric_smiles(
         self, num_round_trips: int = 2, suppress_rdkit_errors: bool = True
     ) -> str:
@@ -268,11 +265,11 @@ class NapistuMol(_Mol):
         Examples
         --------
         >>> from rdkit import Chem
-        >>> from napistu_binding.load.napistu_mol import NapistuMol
+        >>> from napistu_binding.load.nmol import nMol
         >>>
         >>> mol = Chem.MolFromSmiles("CC(=O)O")
-        >>> napistu_mol = NapistuMol(mol)
-        >>> smiles = napistu_mol.to_isomeric_smiles()
+        >>> nmol = nMol(mol)
+        >>> smiles = nmol.to_isomeric_smiles()
         >>> print(smiles)
         'CC(=O)O'
         """

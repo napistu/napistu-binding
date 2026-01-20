@@ -5,7 +5,6 @@ import pytest
 try:
     from rdkit.Chem import Mol
 except ImportError:
-    Mol = None  # type: ignore
     pytest.skip("RDKit not available", allow_module_level=True)
 
 
