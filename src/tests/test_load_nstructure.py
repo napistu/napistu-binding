@@ -3,12 +3,12 @@
 import os
 import tempfile
 
-import pytest
+from pytest import mark, skip
 
 try:
     from Bio.PDB import Structure
 except ImportError:
-    pytest.skip("BioPython not available", allow_module_level=True)
+    skip("BioPython not available", allow_module_level=True)
 
 from napistu_binding.load.nstructure import nStructure
 
@@ -25,6 +25,7 @@ def test_from_pdb_file(pdb_file_path):
     assert len(list(structure.get_models())) > 0
 
 
+@mark.skip_on_windows
 def test_nstructure_fixture(nstructure):
     """Test that nstructure fixture loads correctly."""
     assert isinstance(nstructure, nStructure)
