@@ -116,6 +116,34 @@ class nMol(_Mol):
         return cls(mol)
 
     @classmethod
+    def from_smiles(cls, smiles: str, sanitize: bool = True):
+        """
+        Create an nMol from a SMILES string.
+
+        This is an alias for FromSmiles() using lowercase with underscore naming.
+
+        Parameters
+        ----------
+        smiles : str
+            SMILES string representation of the molecule.
+        sanitize : bool, default=True
+            Whether to sanitize the molecule upon creation.
+
+        Returns
+        -------
+        nMol
+            An nMol instance created from the SMILES string.
+
+        Examples
+        --------
+        >>> from napistu_binding.load.nmol import nMol
+        >>> nmol = nMol.from_smiles("CC(=O)O")
+        >>> print(nmol.smiles)
+        'CC(=O)O'
+        """
+        return cls.FromSmiles(smiles, sanitize=sanitize)
+
+    @classmethod
     def from_mol(cls, mol: Mol):
         """
         Create an nMol from an existing RDKit Mol object.
@@ -148,6 +176,25 @@ class nMol(_Mol):
         except Exception:
             mol_repr = str(self)
         return f"nMol({mol_repr})"
+
+    @property
+    def smiles(self) -> str:
+        """
+        Get the canonical isomeric SMILES string for this molecule.
+
+        Returns
+        -------
+        str
+            Canonical isomeric SMILES string.
+
+        Examples
+        --------
+        >>> from napistu_binding.load.nmol import nMol
+        >>> nmol = nMol.from_smiles("CC(=O)O")
+        >>> print(nmol.smiles)
+        'CC(=O)O'
+        """
+        return self.to_isomeric_smiles()
 
     def is_valid(
         self, verbose: bool = False, suppress_rdkit_errors: bool = True

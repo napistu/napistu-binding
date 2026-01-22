@@ -105,3 +105,14 @@ def test_nmol_from_mol_classmethod(mini_chebi_molecules):
     assert isinstance(nmol, nMol)
     assert isinstance(nmol, Chem.Mol)
     assert nmol.GetNumAtoms() == mol.GetNumAtoms()
+
+
+def test_nmol_from_smiles_roundtrip():
+    """Test roundtrip: from_smiles -> smiles property."""
+    test_smiles = "CC(=O)O"
+    nmol = nMol.from_smiles(test_smiles)
+
+    assert isinstance(nmol, nMol)
+    assert isinstance(nmol, Chem.Mol)
+    # Roundtrip test: create from SMILES and verify smiles property matches
+    assert nmol.smiles == test_smiles

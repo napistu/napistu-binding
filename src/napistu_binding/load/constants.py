@@ -20,7 +20,7 @@ DIFFDOCK_CONSTANTS = SimpleNamespace(
     SPACE_ID="reginabarzilaygroup/DiffDock-Web",
     API_NAME="/predict",
     BACKENDS=SimpleNamespace(
-        HUGGINFACE="huggingface",
+        HUGGINGFACE="huggingface",
         DOCKER="docker",
     ),
 )
